@@ -184,11 +184,6 @@ Create a prediction script (`predict.py`) that:
 - Takes new diameter and contact angle values as input
 - Outputs predictions based on the trained model
 
-### 2. Run Predictions
-```bash
-python predict.py --diameter 0.5 --contact_angle 45
-```
-
 ## Project Structure
 ```
 project/
@@ -202,7 +197,6 @@ project/
 ├── interface/               # Interface data
 ├── trained_models/          # Saved ML models
 ├── training_data.xlsx       # Training dataset
-└── predict.py              # Prediction script
 ```
 
 ## Troubleshooting
